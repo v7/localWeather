@@ -4,7 +4,7 @@ var unit;
 
 function sendQ() {
 
-    $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&APPID=0930f502ad10dc8f025f724690c81d14&units=imperial", function (data) {
+    $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&APPID=0930f502ad10dc8f025f724690c81d14&units=imperial", function (data) {
 
         unit = "imperial";
         $("#city").text(data.name);
