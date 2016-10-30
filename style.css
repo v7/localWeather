@@ -1,0 +1,28 @@
+
+
+body {
+  
+  background-image: url(http://www.public-domain-image.com/miscellaneous/slides/weather-vane-on-the-tower-of-london.jpg);
+  
+  
+  background-position: center center;
+  
+  
+  background-repeat: no-repeat;
+  
+  
+  background-attachment: fixed;
+  
+  
+  background-size: cover;
+  
+ 
+    
+  background-color: #464646;
+}
+
+
+div #jC {
+	margin: 10% auto;
+    min-height: 300px;
+}
